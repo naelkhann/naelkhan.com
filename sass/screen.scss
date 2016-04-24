@@ -1,0 +1,61 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+$purp : rgb(156, 112, 173);
+$h2size : 36px;
+$fontsize: 12px;
+$padding: 16px;
+$my-blue: rgb(95, 165, 215);
+
+
+@media screen and (min-width: 768px){
+  .container-all{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .container{
+    width: auto;
+    padding: $padding 0px;
+  }
+
+  h2{
+    font-size: $h2size;
+    font-family: 'Playfair Display', serif;
+  }
+
+  h3{
+    font-size: ($h2size - 10px);
+  }
+
+  p{
+    font-family: 'Playfair Display', serif;
+    font-size: $fontsize;
+    vertical-align: text-bottom;
+  }
+
+  .fa{
+    margin-right: 5px;
+  }
+
+  a{
+    &:link, &:visited {
+      text-decoration: none;
+      color: black;
+      transition: color 0.15s linear;
+    }
+
+    &:hover{
+      text-decoration: underline;
+      color: $my-blue;
+    }
+  }
+
+}
