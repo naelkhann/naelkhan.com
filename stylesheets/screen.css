@@ -90,74 +90,91 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
   /* line 33, ../sass/screen.scss */
   .container-body {
-    width: auto;
+    width: 70%;
     height: 100%;
     position: absolute;
     margin-left: 30%;
-    border: 1px solid #9c70ad;
   }
 
-  /* line 41, ../sass/screen.scss */
+  /* line 40, ../sass/screen.scss */
   .container-body-inner {
-    margin-left: 16px;
-    margin-right: 16px;
+    width: auto;
+    margin-left: 12%;
     margin-top: 10%;
+    float: left;
   }
 
   /* line 48, ../sass/screen.scss */
+  .container-body-inner > h4 {
+    margin-top: 12px;
+    width: 425px;
+    text-align: center;
+  }
+
+  /* line 54, ../sass/screen.scss */
+  #project {
+    height: 200px;
+  }
+
+  /* line 58, ../sass/screen.scss */
   h2 {
     font-size: 36px;
     font-family: 'Playfair Display', serif;
   }
 
-  /* line 53, ../sass/screen.scss */
+  /* line 63, ../sass/screen.scss */
   h3 {
     font-size: 26px;
   }
 
-  /* line 57, ../sass/screen.scss */
+  /* line 67, ../sass/screen.scss */
+  h4 {
+    font-size: 21px;
+  }
+
+  /* line 71, ../sass/screen.scss */
   p {
     font-family: 'Playfair Display', serif;
     font-size: 12px;
     vertical-align: text-bottom;
   }
 
-  /* line 63, ../sass/screen.scss */
+  /* line 77, ../sass/screen.scss */
   .fa {
     margin-right: 5px;
   }
 
-  /* line 68, ../sass/screen.scss */
+  /* line 82, ../sass/screen.scss */
   a:link, a:visited {
     text-decoration: none;
     color: black;
     transition: color 0.15s linear;
   }
-  /* line 74, ../sass/screen.scss */
+  /* line 88, ../sass/screen.scss */
   a:hover {
     text-decoration: underline;
     color: #5fa5d7;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 83, ../sass/screen.scss */
+  /* line 97, ../sass/screen.scss */
   .container-side {
     width: 100%;
     height: 25%;
   }
 
-  /* line 88, ../sass/screen.scss */
+  /* line 102, ../sass/screen.scss */
   .container-side-inner {
     margin-left: 5%;
   }
 
-  /* line 92, ../sass/screen.scss */
+  /* line 106, ../sass/screen.scss */
   .container {
     width: auto;
     padding-top: 5%;
   }
 
-  /* line 97, ../sass/screen.scss */
+  /* line 111, ../sass/screen.scss */
   .container-body {
     width: 100%;
     height: 100%;
@@ -167,36 +184,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background-color: #9c70ad;
   }
 
-  /* line 106, ../sass/screen.scss */
+  /* line 120, ../sass/screen.scss */
   h2 {
     font-size: 26px;
     font-family: 'Playfair Display', serif;
   }
 
-  /* line 111, ../sass/screen.scss */
+  /* line 125, ../sass/screen.scss */
   h3 {
     font-size: 21px;
   }
 
-  /* line 115, ../sass/screen.scss */
+  /* line 129, ../sass/screen.scss */
   p {
     font-family: 'Playfair Display', serif;
     font-size: 10px;
     vertical-align: text-bottom;
   }
 
-  /* line 121, ../sass/screen.scss */
+  /* line 135, ../sass/screen.scss */
   .fa {
     margin-right: 5px;
   }
 
-  /* line 126, ../sass/screen.scss */
+  /* line 140, ../sass/screen.scss */
   a:link, a:visited {
     text-decoration: none;
     color: black;
     transition: color 0.15s linear;
   }
-  /* line 132, ../sass/screen.scss */
+  /* line 146, ../sass/screen.scss */
   a:hover {
     text-decoration: underline;
     color: #5fa5d7;

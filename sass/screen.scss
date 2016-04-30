@@ -31,18 +31,28 @@ $my-blue: rgb(95, 165, 215);
   }
 
   .container-body{
-    width: auto;
+    width: 70%;
     height: 100%;
     position: absolute;
     margin-left: 30%;
-    border: 1px solid $purp;
   }
 
   .container-body-inner{
-    margin-left: $padding;
-    margin-right: $padding;
+    width: auto;
+    margin-left: 12%;
     margin-top: 10%;
+    float: left;
 
+  }
+
+  .container-body-inner > h4  {
+    margin-top: 12px;
+    width: 425px;
+    text-align: center;
+  }
+
+  #project{
+    height: 200px;
   }
 
   h2{
@@ -52,6 +62,10 @@ $my-blue: rgb(95, 165, 215);
 
   h3{
     font-size: ($h2size - 10px);
+  }
+
+  h4{
+    font-size: ($h2size - 15px);
   }
 
   p{
