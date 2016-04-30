@@ -13,17 +13,36 @@ $my-blue: rgb(95, 165, 215);
 
 
 @media screen and (min-width: 768px){
-  .container-all{
-    width: 80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .container-side{
+    width: 25%;
+    height: 100%;
+    position: static;
+    float: left;
+  }
+
+  .container-side-inner{
+    margin-top: 50%;
+    margin-left: 5%;
   }
 
   .container{
     width: auto;
-    padding: $padding 0px;
+    padding-top: 5%;
+  }
+
+  .container-body{
+    width: auto;
+    height: 100%;
+    position: absolute;
+    margin-left: 30%;
+    border: 1px solid $purp;
+  }
+
+  .container-body-inner{
+    margin-left: $padding;
+    margin-right: $padding;
+    margin-top: 10%;
+
   }
 
   h2{
@@ -38,6 +57,64 @@ $my-blue: rgb(95, 165, 215);
   p{
     font-family: 'Playfair Display', serif;
     font-size: $fontsize;
+    vertical-align: text-bottom;
+  }
+
+  .fa{
+    margin-right: 5px;
+  }
+
+  a{
+    &:link, &:visited {
+      text-decoration: none;
+      color: black;
+      transition: color 0.15s linear;
+    }
+
+    &:hover{
+      text-decoration: underline;
+      color: $my-blue;
+    }
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  .container-side{
+    width: 100%;
+    height: 25%;
+  }
+
+  .container-side-inner{
+    margin-left: 5%;
+  }
+
+  .container{
+    width: auto;
+    padding-top: 5%;
+  }
+
+  .container-body{
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: $purp;
+  }
+
+  h2{
+    font-size: $h2size - 10px;
+    font-family: 'Playfair Display', serif;
+  }
+
+  h3{
+    font-size: ($h2size - 15px);
+  }
+
+  p{
+    font-family: 'Playfair Display', serif;
+    font-size: $fontsize - 2px;
     vertical-align: text-bottom;
   }
 
