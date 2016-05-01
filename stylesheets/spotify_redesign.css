@@ -1,0 +1,215 @@
+/* line 5, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 10, ../sass/spotify_redesign.scss */
+  .container-side {
+    width: 25%;
+    height: 100%;
+    position: static;
+    float: left;
+  }
+
+  /* line 17, ../sass/spotify_redesign.scss */
+  .container-side-inner {
+    margin-top: 50%;
+    margin-left: 5%;
+  }
+
+  /* line 22, ../sass/spotify_redesign.scss */
+  .container {
+    width: auto;
+    padding-top: 5%;
+  }
+
+  /* line 27, ../sass/spotify_redesign.scss */
+  .container-body {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    margin-left: 30%;
+  }
+
+  /* line 42, ../sass/spotify_redesign.scss */
+  img {
+    width: 100%;
+  }
+
+  /* line 46, ../sass/spotify_redesign.scss */
+  .container-body-inner > h4 {
+    margin-top: 12px;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: auto;
+  }
+
+  /* line 54, ../sass/spotify_redesign.scss */
+  #project {
+    height: 200px;
+  }
+
+  /* line 58, ../sass/spotify_redesign.scss */
+  h2 {
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+  }
+
+  /* line 63, ../sass/spotify_redesign.scss */
+  h3 {
+    font-size: 26px;
+  }
+
+  /* line 67, ../sass/spotify_redesign.scss */
+  h4 {
+    font-size: 21px;
+  }
+
+  /* line 71, ../sass/spotify_redesign.scss */
+  p {
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    vertical-align: text-bottom;
+  }
+
+  /* line 77, ../sass/spotify_redesign.scss */
+  .fa {
+    margin-right: 5px;
+  }
+
+  /* line 82, ../sass/spotify_redesign.scss */
+  a:link, a:visited {
+    text-decoration: none;
+    color: black;
+    transition: color 0.15s linear;
+  }
+  /* line 88, ../sass/spotify_redesign.scss */
+  a:hover {
+    text-decoration: underline;
+    color: #5fa5d7;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 97, ../sass/spotify_redesign.scss */
+  .container-side {
+    width: 100%;
+    height: 25%;
+  }
+
+  /* line 102, ../sass/spotify_redesign.scss */
+  .container-side-inner {
+    margin-left: 5%;
+  }
+
+  /* line 106, ../sass/spotify_redesign.scss */
+  .container {
+    width: auto;
+    padding-top: 5%;
+  }
+
+  /* line 111, ../sass/spotify_redesign.scss */
+  .container-body {
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #9c70ad;
+  }
+
+  /* line 120, ../sass/spotify_redesign.scss */
+  h2 {
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+  }
+
+  /* line 125, ../sass/spotify_redesign.scss */
+  h3 {
+    font-size: 21px;
+  }
+
+  /* line 129, ../sass/spotify_redesign.scss */
+  p {
+    font-family: 'Playfair Display', serif;
+    font-size: 10px;
+    vertical-align: text-bottom;
+  }
+
+  /* line 135, ../sass/spotify_redesign.scss */
+  .fa {
+    margin-right: 5px;
+  }
+
+  /* line 140, ../sass/spotify_redesign.scss */
+  a:link, a:visited {
+    text-decoration: none;
+    color: black;
+    transition: color 0.15s linear;
+  }
+  /* line 146, ../sass/spotify_redesign.scss */
+  a:hover {
+    text-decoration: underline;
+    color: #5fa5d7;
+  }
+}

@@ -1,0 +1,152 @@
+@import "compass/reset";
+
+$purp : rgb(156, 112, 173);
+$h2size : 36px;
+$fontsize: 12px;
+$padding: 16px;
+$my-blue: rgb(95, 165, 215);
+
+@media screen and (min-width: 768px){
+  .container-side{
+    width: 25%;
+    height: 100%;
+    position: static;
+    float: left;
+  }
+
+  .container-side-inner{
+    margin-top: 50%;
+    margin-left: 5%;
+  }
+
+  .container{
+    width: auto;
+    padding-top: 5%;
+  }
+
+  .container-body{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    margin-left: 30%;
+  }
+
+  // .container-body-inner{
+  //   width: auto;
+  //   margin-left: 12%;
+  //   margin-top: 10%;
+  //   float: left;
+  //
+  // }
+
+  img{
+    width: 100%;
+  }
+
+  .container-body-inner > h4  {
+    margin-top: 12px;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: auto;
+  }
+
+
+  #project{
+    height: 200px;
+  }
+
+  h2{
+    font-size: $h2size;
+    font-family: 'Playfair Display', serif;
+  }
+
+  h3{
+    font-size: ($h2size - 10px);
+  }
+
+  h4{
+    font-size: ($h2size - 15px);
+  }
+
+  p{
+    font-family: 'Playfair Display', serif;
+    font-size: $fontsize;
+    vertical-align: text-bottom;
+  }
+
+  .fa{
+    margin-right: 5px;
+  }
+
+  a{
+    &:link, &:visited {
+      text-decoration: none;
+      color: black;
+      transition: color 0.15s linear;
+    }
+
+    &:hover{
+      text-decoration: underline;
+      color: $my-blue;
+    }
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  .container-side{
+    width: 100%;
+    height: 25%;
+  }
+
+  .container-side-inner{
+    margin-left: 5%;
+  }
+
+  .container{
+    width: auto;
+    padding-top: 5%;
+  }
+
+  .container-body{
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: $purp;
+  }
+
+  h2{
+    font-size: $h2size - 10px;
+    font-family: 'Playfair Display', serif;
+  }
+
+  h3{
+    font-size: ($h2size - 15px);
+  }
+
+  p{
+    font-family: 'Playfair Display', serif;
+    font-size: $fontsize - 2px;
+    vertical-align: text-bottom;
+  }
+
+  .fa{
+    margin-right: 5px;
+  }
+
+  a{
+    &:link, &:visited {
+      text-decoration: none;
+      color: black;
+      transition: color 0.15s linear;
+    }
+
+    &:hover{
+      text-decoration: underline;
+      color: $my-blue;
+    }
+  }
+
+}
