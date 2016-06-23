@@ -1,4 +1,4 @@
-/* line 5, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -68,23 +68,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .container-side {
     width: 25%;
     height: 100%;
-    position: static;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     float: left;
   }
 
-  /* line 17, ../sass/spotify_redesign.scss */
+  /* line 19, ../sass/spotify_redesign.scss */
   .container-side-inner {
     margin-top: 50%;
     margin-left: 5%;
   }
 
-  /* line 22, ../sass/spotify_redesign.scss */
+  /* line 24, ../sass/spotify_redesign.scss */
   .container {
     width: auto;
     padding-top: 5%;
   }
 
-  /* line 27, ../sass/spotify_redesign.scss */
+  /* line 29, ../sass/spotify_redesign.scss */
   .container-body {
     width: 70%;
     height: 100%;
@@ -92,122 +94,150 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     margin-left: 30%;
   }
 
-  /* line 42, ../sass/spotify_redesign.scss */
+  /* line 44, ../sass/spotify_redesign.scss */
   img {
     width: 100%;
   }
 
-  /* line 46, ../sass/spotify_redesign.scss */
+  /* line 48, ../sass/spotify_redesign.scss */
   .container-body-inner > h4 {
-    margin-top: 12px;
-    margin-left: 2%;
-    margin-right: 2%;
+    padding-top: 1%;
     width: auto;
   }
 
-  /* line 54, ../sass/spotify_redesign.scss */
+  /* line 53, ../sass/spotify_redesign.scss */
+  .description-heading {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  /* line 58, ../sass/spotify_redesign.scss */
   #project {
     height: 200px;
   }
 
-  /* line 58, ../sass/spotify_redesign.scss */
+  /* line 62, ../sass/spotify_redesign.scss */
   h2 {
     font-size: 36px;
     font-family: 'Playfair Display', serif;
   }
 
-  /* line 63, ../sass/spotify_redesign.scss */
+  /* line 67, ../sass/spotify_redesign.scss */
   h3 {
     font-size: 26px;
   }
 
-  /* line 67, ../sass/spotify_redesign.scss */
+  /* line 71, ../sass/spotify_redesign.scss */
   h4 {
     font-size: 21px;
   }
 
-  /* line 71, ../sass/spotify_redesign.scss */
+  /* line 75, ../sass/spotify_redesign.scss */
   p {
     font-family: 'Playfair Display', serif;
     font-size: 12px;
     vertical-align: text-bottom;
   }
 
-  /* line 77, ../sass/spotify_redesign.scss */
+  /* line 81, ../sass/spotify_redesign.scss */
   .fa {
     margin-right: 5px;
   }
 
-  /* line 82, ../sass/spotify_redesign.scss */
+  /* line 86, ../sass/spotify_redesign.scss */
   a:link, a:visited {
     text-decoration: none;
     color: black;
     transition: color 0.15s linear;
   }
-  /* line 88, ../sass/spotify_redesign.scss */
+  /* line 92, ../sass/spotify_redesign.scss */
   a:hover {
     text-decoration: underline;
     color: #5fa5d7;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 97, ../sass/spotify_redesign.scss */
+  /* line 101, ../sass/spotify_redesign.scss */
   .container-side {
     width: 100%;
     height: 25%;
   }
 
-  /* line 102, ../sass/spotify_redesign.scss */
+  /* line 106, ../sass/spotify_redesign.scss */
   .container-side-inner {
-    margin-left: 5%;
+    padding-left: 5%;
   }
 
-  /* line 106, ../sass/spotify_redesign.scss */
+  /* line 110, ../sass/spotify_redesign.scss */
   .container {
-    width: auto;
+    width: 100%;
     padding-top: 5%;
   }
 
-  /* line 111, ../sass/spotify_redesign.scss */
+  /* line 115, ../sass/spotify_redesign.scss */
   .container-body {
     width: 100%;
     height: 100%;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: #9c70ad;
+    padding-top: 5%;
   }
 
-  /* line 120, ../sass/spotify_redesign.scss */
+  /* line 121, ../sass/spotify_redesign.scss */
+  .container-body-inner {
+    width: 100%;
+  }
+
+  /* line 125, ../sass/spotify_redesign.scss */
+  .container-body-inner > h4 {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  /* line 130, ../sass/spotify_redesign.scss */
+  .description-first {
+    padding-top: 2%;
+  }
+
+  /* line 134, ../sass/spotify_redesign.scss */
+  .description-heading {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  /* line 139, ../sass/spotify_redesign.scss */
   h2 {
     font-size: 26px;
     font-family: 'Playfair Display', serif;
   }
 
-  /* line 125, ../sass/spotify_redesign.scss */
+  /* line 144, ../sass/spotify_redesign.scss */
   h3 {
     font-size: 21px;
   }
 
-  /* line 129, ../sass/spotify_redesign.scss */
+  /* line 148, ../sass/spotify_redesign.scss */
   p {
     font-family: 'Playfair Display', serif;
-    font-size: 10px;
+    font-size: 12px;
     vertical-align: text-bottom;
   }
 
-  /* line 135, ../sass/spotify_redesign.scss */
+  /* line 154, ../sass/spotify_redesign.scss */
   .fa {
     margin-right: 5px;
   }
 
-  /* line 140, ../sass/spotify_redesign.scss */
+  /* line 158, ../sass/spotify_redesign.scss */
+  img {
+    width: 100%;
+  }
+
+  /* line 163, ../sass/spotify_redesign.scss */
   a:link, a:visited {
     text-decoration: none;
     color: black;
     transition: color 0.15s linear;
   }
-  /* line 146, ../sass/spotify_redesign.scss */
+  /* line 169, ../sass/spotify_redesign.scss */
   a:hover {
     text-decoration: underline;
     color: #5fa5d7;
